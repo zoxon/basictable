@@ -1,34 +1,37 @@
-/*
- * jQuery Basic Table
- * Author: Jerry Low
- */
-
-table.bt thead {
+table {
+  width: 100%;
+}
+.table_responsive thead,
+.table_responsive tfoot {
   display: none;
 }
-
-table.bt tbody td {
+.table_responsive caption {
+  display: block;
+}
+.table_responsive tbody td {
   border: none;
   display: block;
   vertical-align: top;
 }
-
-table.bt tbody td:before {
+.table_responsive tbody td:before {
   content: attr(data-th) ": ";
   font-weight: bold;
   width: 6.5em;
   display: inline-block;
 }
-
-table.bt tbody td.bt-hide {
+.table_responsive tbody td.table__hide {
   display: none;
 }
-
-table.bt tbody td .bt-content {
+.table_responsive tbody td .table__content {
   vertical-align: top;
 }
-
-.bt-wrapper.active {
+.table_responsive tbody td:first-child {
+  padding-top: 1.5em;
+}
+.table_responsive tbody td:last-child {
+  padding-bottom: 1.5em;
+}
+.table_responsive .table__wrapper_active {
   max-height: 310px;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
