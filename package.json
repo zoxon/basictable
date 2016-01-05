@@ -1,0 +1,33 @@
+{
+  "name": "basictable",
+  "version": "1.0.1",
+  "description": "Basic Table jQuery plugin for simple responsive tables.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoxon/basictable.git"
+  },
+  "keywords": [
+    "responsive",
+    "table",
+    "jquery"
+  ],
+  "author": "Velichko Konstantin <zoxon.box@gmail.com> (http://zoxon.ml/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoxon/basictable/issues"
+  },
+  "homepage": "https://github.com/zoxon/basictable#readme",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.8.1",
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.2.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7"
+  }
+}
